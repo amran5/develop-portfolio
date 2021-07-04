@@ -12,8 +12,9 @@ h1{
 .bn{
     color: black;
 }
-section{
+.milan{
     display: flex;
+    margin-bottom: 100px;
 }
 .me{
     width: 50%;
@@ -33,7 +34,45 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
 }
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
 .banner{
     background-image: url(images/top-banner.png);
-
+    background-repeat: no-repeat;
+}
+.last{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}.amran{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+#left{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#right{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(227, 227, 238), rgb(255, 0, 13));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.b{
+    color: #000;
 }
