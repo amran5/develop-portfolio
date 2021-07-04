@@ -1,0 +1,39 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;   
+}
+h1{
+    font-size: 50px;
+    color: rgb(147, 20, 220);
+}
+.en{
+    color: rgb(245, 30, 66);
+}
+.bn{
+    color: black;
+}
+section{
+    display: flex;
+}
+.me{
+    width: 50%;
+    padding-left: 2%;
+}
+.me img{
+    width: 100%;
+}
+.green{
+    color: rgba(0, 128, 0, 0.932);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.banner{
+    background-image: url(images/top-banner.png);
+
+}
